@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Istanbul Cultural Events</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kadwa:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    .gallery-container {
+      display: flex;
+      flex-direction: column;
+      /* Change to column */
+
+      justify-content: center;
+      align-items: center;
+    }
+
+    .gallery {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      max-width: 800px;
+    }
+
+    .event-gallery {
+      margin: 20px;
+
+      text-align: center;
+    }
+
+    .event-gallery img {
+      width: 100%;
+      height: auto;
+      border-radius: 5px;
+      margin-bottom: 10px;
+    }
+
+    .event-gallery h2 {
+      margin-top: 0;
+    }
+
+    /* Adjustments for small screens */
+    @media screen and (max-width: 767px) {
+      .gallery-container {
+        align-items: center;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <nav class="navbar">
+    <div class="logo">
+      <a href="#">Istanbul</a>
+    </div>
+
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="events.html">Events</a></li>
+      <li><a href="details.html">Details</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <div class="gallery-container">
+    <div class="gallery">
+      <div class="event-gallery">
+        <h2>Istanbul Biennial</h2>
+        <img src="images/biennal-1.jpeg" alt="Istanbul Biennial Image 1">
+        <img src="images/biennal-2.jpeg" alt="Istanbul Biennial Image 2">
+        <img src="images/biennal-3.jpeg" alt="Istanbul Biennial Image 3">
+      </div>
+      <div class="event-gallery">
+        <h2>Istanbul Film Festival</h2>
+        <img src="images/film-1.jpeg" alt="Istanbul Film Festival Image 1">
+        <img src="images/film-2.jpeg" alt="Istanbul Film Festival Image 2">
+        <img src="images/film-3.jpeg" alt="Istanbul Film Festival Image 3">
+      </div>
+      <div class="event-gallery">
+        <h2>Istanbul Music Festival</h2>
+        <img src="images/music-1.jpeg" alt="Istanbul Music Festival Image 1">
+        <img src="images/music-2.jpeg" alt="Istanbul Music Festival Image 2">
+        <img src="images/music-3.jpeg" alt="Istanbul Music Festival Image 3">
+      </div>
+      <div class="event-gallery">
+        <h2>Istanbul Jazz Festival</h2>
+        <img src="images/jazz-1.png" alt="Istanbul jazz Festival Image 1">
+        <img src="images/jazz-2.png" alt="Istanbul jazz Festival Image 2">
+        <img src="images/jazz-3.png" alt="Istanbul jazz Festival Image 3">
+      </div>
+      <div class="event-gallery">
+        <h2>Istanbul Design Biennial</h2>
+        <img src="images/design-1.jpeg" alt="Istanbul Design Biennial Image 1">
+        <img src="images/design-2.jpeg" alt="Istanbul Design Biennial Image 2">
+        <img src="images/design-3.jpeg" alt="Istanbul Design Biennial Image 3">
+      </div>
+      <div class="event-gallery">
+        <h2>Istanbul Theatre Festival</h2>
+        <img src="images/theatre-1.jpeg" alt="Istanbul Theatre Festival Image 1">
+        <img src="images/theatre-2.jpeg" alt="Istanbul Theatre Festival Image 2">
+        <img src="images/theatre-3.jpeg" alt="Istanbul Theatre Festival Image 3">
+      </div>
+      <div class="event-gallery">
+        <h2>Istanbul Literature Festival</h2>
+        <img src="images/literature-1.jpeg" alt="Istanbul Literature Festival Image 1">
+        <img src="images/literature-2.jpeg" alt="Istanbul Literature Festival Image 2">
+        <img src="images/literature-3.jpeg" alt="Istanbul Literature Festival Image 3">
+      </div>
+    </div>
+
+
+  </div>
+
+  <footer class="footer">
+    <p>&copy; 2024 Istanbul Cultural Events</p>
+  </footer>
+
+
+</body>
+
+</html>

@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Istanbul Cultural Events</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kadwa:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    form {
+      max-width: 420px;
+      margin: 50px auto;
+    }
+
+    .info {
+      max-width: 420px;
+      margin: 50px auto;
+    }
+
+    .feedback-input {
+      color: white;
+      font-family: Helvetica, Arial, sans-serif;
+      font-weight: 500;
+      font-size: 18px;
+      border-radius: 5px;
+      line-height: 22px;
+      background-color: transparent;
+      border: 2px solid #644e6e;
+      transition: all 0.3s;
+      padding: 13px;
+      margin-bottom: 15px;
+      width: 100%;
+      box-sizing: border-box;
+      outline: 0;
+    }
+
+    .feedback-input:focus {
+      border: 2px solid #644e6e;
+    }
+
+    textarea {
+      height: 150px;
+      line-height: 150%;
+      resize: vertical;
+    }
+
+    [type="submit"] {
+      font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+      width: 100%;
+      background: #644e6e;
+      border-radius: 5px;
+      border: 0;
+      cursor: pointer;
+      color: #f2bba0;
+      font-size: 24px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      transition: all 0.3s;
+      margin-top: -4px;
+      font-weight: 700;
+    }
+
+    .info {
+      background-color: #644e6e;
+      padding: 20px;
+      border-radius: 10px;
+    }
+
+    .info h2 {
+      color: #f2bba0;
+      font-size: 24px;
+      margin-bottom: 15px;
+    }
+
+    .info p {
+      font-size: 16px;
+      margin-bottom: 10px;
+      color: #f2bba0;
+
+    }
+
+    .info ul {
+      list-style: none;
+      padding-left: 0;
+      margin-top: 10px;
+    }
+
+    .info ul li {
+      margin-bottom: 5px;
+    }
+
+    .info ul li a {
+      color: #f2bba0;
+      text-decoration: none;
+    }
+
+    .info ul li a:hover {
+      text-decoration: underline;
+    }
+
+    @media screen and (max-width: 767px) {
+
+      .form,
+      .info {
+        max-width: calc(100% - 30px);
+        margin: 25px auto;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <nav class="navbar">
+    <div class="logo">
+      <a href="#">Istanbul</a>
+    </div>
+
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="events.html">Events</a></li>
+      <li><a href="details.html">Details</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <h1 style="text-align: center; padding-top: 20px;">Contact Us!</h1>
+  <div>
+    <div class="form">
+      <form>
+        <input name="name" type="text" class="feedback-input" placeholder="Name" />
+        <input name="email" type="text" class="feedback-input" placeholder="Email" />
+        <textarea name="text" class="feedback-input" placeholder="Comment"></textarea>
+        <input type="submit" value="Send Message" />
+      </form>
+    </div>
+    <div class="info">
+      <h2>Contact Information</h2>
+      <br>
+      <p><strong>Address:</strong> Kadıköy, İstanbul</p>
+      <p><strong>Email:</strong> info@example.com</p>
+      <p><strong>Phone:</strong> +1234567890</p>
+      <br>
+      <h2>Social Media</h2>
+      <br>
+      <ul>
+        <li><a href="https://www.facebook.com/" target="_blank">Facebook</a></li>
+        <li><a href="https://twitter.com/" target="_blank">Twitter</a></li>
+        <li><a href="https://www.instagram.com/" target="_blank">Instagram</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <p>&copy; 2024 Istanbul Cultural Events</p>
+  </footer>
+
+
+</body>
+
+</html>

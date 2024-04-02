@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Istanbul Cultural Events</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kadwa:wght@400;700&display=swap" rel="stylesheet">
+
+  <style>
+    .container {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+
+    }
+
+    .event-card {
+      border: 1px solid #ccc;
+      background: #644e6e;
+      color: white;
+      border-radius: 5px;
+      padding: 20px;
+      margin: 20px 0;
+      width: 600px;
+    }
+
+    .event-card h2 {
+      margin-top: 0;
+    }
+
+    .comments-section {
+      margin-top: 20px;
+    }
+
+    .comments-section textarea {
+      width: 100%;
+      max-width: 100%;
+      height: 100px;
+      /* Fixed size for textarea */
+      resize: none;
+      /* Prevent resizing */
+      margin-bottom: 10px;
+    }
+
+    .comments-section button {
+      background-color: white;
+      color: #644e6e;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    /* Styles for small screens */
+    @media screen and (max-width: 767px) {
+      .event-card {
+        width: 90%;
+        margin: 20px auto;
+        padding: 15px;
+        box-sizing: border-box;
+      }
+
+      .event-card h2 {
+        font-size: 24px;
+      }
+
+      .event-card p {
+        font-size: 14px;
+        line-height: 1.4;
+      }
+
+      .comments-section textarea {
+        height: 80px;
+        margin-bottom: 5px;
+      }
+
+      .comments-section button {
+        padding: 8px 15px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <nav class="navbar">
+    <div class="logo">
+      <a href="#">Istanbul</a>
+    </div>
+
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="events.html">Events</a></li>
+      <li><a href="details.html">Details</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <div class="container">
+    <div class="event-card" id="event1">
+      <h2>Istanbul Biennial</h2>
+      <p><strong>Schedule:</strong> AUG 4</p>
+      <p><strong>Description:</strong> A major contemporary art exhibition held every two years, showcasing diverse
+        artworks from around the world. The event fosters cultural exchange and dialogue on pressing social and
+        political issues.</p>
+      <p><strong>Location:</strong> Kadıköy</p>
+      <div class="comments-section">
+        <h3>Comments</h3>
+        <textarea rows="4" cols="50" placeholder="Add your comment here"></textarea>
+        <button>Add Comment</button>
+      </div>
+    </div>
+
+    <div class="event-card" id="event2">
+      <h2>Istanbul Film Festival</h2>
+      <p><strong>Schedule:</strong> JUNE 13</p>
+      <p><strong>Description:</strong> An annual celebration of cinema, featuring a wide range of domestic and
+        international films, including screenings, Q&A sessions with filmmakers, and panel discussions.</p>
+      <p><strong>Location:</strong> Sarıyer</p>
+      <div class="comments-section">
+        <h3>Comments</h3>
+        <textarea rows="4" cols="50" placeholder="Add your comment here"></textarea>
+        <button>Add Comment</button>
+      </div>
+    </div>
+
+    <div class="event-card" id="event3">
+      <h2>Istanbul Music Festival</h2>
+      <p><strong>Schedule:</strong> SEP 25</p>
+      <p><strong>Description:</strong> A prestigious classical music event held annually in June, presenting
+        orchestral concerts, chamber music recitals, opera performances, and more, featuring renowned musicians from
+        Turkey and abroad.</p>
+      <p><strong>Location:</strong> Karaköy</p>
+      <div class="comments-section">
+        <h3>Comments</h3>
+        <textarea rows="4" cols="50" placeholder="Add your comment here"></textarea>
+        <button>Add Comment</button>
+      </div>
+    </div>
+
+    <div class="event-card" id="event4">
+      <h2>Istanbul Jazz Festival</h2>
+      <p><strong>Schedule:</strong> APR 7</p>
+      <p><strong>Description:</strong> A dynamic jazz event held in July, showcasing performances by leading
+        international and Turkish jazz artists across various venues in the city, including concerts, jam sessions,
+        workshops, and exhibitions.</p>
+      <p><strong>Location:</strong> Üsküdar</p>
+      <div class="comments-section">
+        <h3>Comments</h3>
+        <textarea rows="4" cols="50" placeholder="Add your comment here"></textarea>
+        <button>Add Comment</button>
+      </div>
+    </div>
+
+    <div class="event-card" id="event5">
+      <h2>Istanbul Design Biennial</h2>
+      <p><strong>Schedule:</strong> MAY 24</p>
+      <p><strong>Description:</strong> A biennial exhibition exploring the intersection of design, technology, and
+        culture, featuring innovative installations, workshops, and talks by designers, architects, and artists from
+        around the world.</p>
+      <p><strong>Location:</strong> Beyoğlu</p>
+      <div class="comments-section">
+        <h3>Comments</h3>
+        <textarea rows="4" cols="50" placeholder="Add your comment here"></textarea>
+        <button>Add Comment</button>
+      </div>
+    </div>
+
+    <div class="event-card" id="event6">
+      <h2>Istanbul Theatre Festival</h2>
+      <p><strong>Schedule:</strong> AUG 19</p>
+      <p><strong>Description:</strong> An annual showcase of contemporary theater productions from Turkey and abroad,
+        presenting plays, dance performances, and experimental works in theaters and alternative performance spaces
+        throughout the city.</p>
+      <p><strong>Location:</strong> Fatih</p>
+      <div class="comments-section">
+        <h3>Comments</h3>
+        <textarea rows="4" cols="50" placeholder="Add your comment here"></textarea>
+        <button>Add Comment</button>
+      </div>
+    </div>
+
+    <div class="event-card" id="event7">
+      <h2> Istanbul International Literature Festival</h2>
+      <p><strong>Schedule:</strong> OCT 15</p>
+      <p><strong>Description:</strong> A literary festival celebrating the written word through readings, discussions,
+        book signings, and workshops with authors, poets, translators, and publishers from diverse cultural
+        backgrounds, promoting literary diversity and excellence.</p>
+      <p><strong>Location:</strong> Levent</p>
+      <div class="comments-section">
+        <h3>Comments</h3>
+        <textarea rows="4" cols="50" placeholder="Add your comment here"></textarea>
+        <button>Add Comment</button>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <p>&copy; 2024 Istanbul Cultural Events</p>
+    </footer>
+
+
+</body>
+
+</html>
